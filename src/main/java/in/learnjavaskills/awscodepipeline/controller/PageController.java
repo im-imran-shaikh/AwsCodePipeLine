@@ -20,12 +20,12 @@ public class PageController
 	@GetMapping("getNames")
 	public List<String> getNames()
 	{
-		return Arrays.asList("Imran","Pradeep", "Suraj", "Sarwar","Arjun","Rahul");
+		return Arrays.asList("Imran","Pradeep", "Suraj", "Sarwar","Arjun","Rahul", "Karen");
 	}
 	
 	@GetMapping("GetDate")
 	public Date getDate()
 	{
-		return new Date();
+		return  new Date();
 	}
 }
