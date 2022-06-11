@@ -28,4 +28,10 @@ public class PageController
 	{
 		return  new Date();
 	}
+	
+	@GetMapping("GetDatePlus10")
+	public Date getDatePlus10()
+	{
+		return  new Date();
+	}
 }
